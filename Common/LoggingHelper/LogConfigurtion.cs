@@ -8,7 +8,7 @@ using Microsoft.Extensions.Configuration;
 
 namespace LoggingHelper
 {
-    public static class ConfigureLog
+    public static class LogConfigurtion
     {
         public static Action<HostBuilderContext, LoggerConfiguration> ConfigureLogger =>
            (hostingContext, loggerConfiguration) =>
